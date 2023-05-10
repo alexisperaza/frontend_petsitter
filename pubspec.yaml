@@ -1,0 +1,83 @@
+name: frontend
+description: PetSitter.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+
+dependencies:
+  http: ^0.13.6
+  get: ^4.6.5
+  flutter_native_splash: ^2.2.19
+  smooth_page_indicator: ^1.1.0
+  shared_preferences: ^2.1.1
+
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  dio: ^5.1.2
+  jwt_decoder: ^2.0.1
+  get_storage: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#0E4B5B"
+  image: "assets/images/splash/logo_splash.png"
+
+
+
+flutter:
+  assets:
+    - assets/
+    - assets/images/splash/
+    - assets/images/initial/
+    - assets/images/petsitter/
+
+
+  fonts:
+    - family: Poppins-Regular
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+
+    - family: Poppins-Light
+      fonts:
+        - asset: assets/fonts/Poppins-light.ttf
+
+    - family: Poppins-Bold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+
+    - family: Poppins-SemiBold
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+
+    - family: Poppins-Thin
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+
+    - family: Poppins-Italic
+      fonts:
+        - asset: assets/fonts/Poppins-Italic.ttf
+
+    - family: Poppins-Medium
+      fonts:
+        - asset: assets/fonts/Poppins-Medium.ttf
+
+    - family: Poppins-ExtraBold
+      fonts:
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+        
+
+  uses-material-design: true
+
